@@ -26,4 +26,4 @@ The multidimensional array of MRT lines and stations is stored in the mrtLines v
 Each station object has a name and code property, where name is the full name of the station and code is the abbreviated code for the station (e.g. "EW1" for Pasir Ris station on the East-West Line).
 
 ## License
-This program is licensed under the [MIT License](LICENSE).. Feel free to use, modify, and distribute the code as needed.
+This program is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as needed.
