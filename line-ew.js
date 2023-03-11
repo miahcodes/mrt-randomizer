@@ -1,0 +1,41 @@
+const EWLine = {
+    name: "East West Line",
+    code: "EW",
+    stations: [
+        {name: "Pasir Ris", code: "EW1"},
+        {name: "Tampines", code: "EW2"},
+        {name: "Simei", code: "EW3"},
+        {name: "Tanah Merah", code: "EW4"},
+        {name: "Bedok", code: "EW5"},
+        {name: "Kembangan", code: "EW6"},
+        {name: "Eunos", code: "EW7"},
+        {name: "Paya Lebar", code: "EW8"},
+        {name: "Aljunied", code: "EW9"},
+        {name: "Kallang", code: "EW10"},
+        {name: "Lavender", code: "EW11"},
+        {name: "Bugis", code: "EW12"},
+        {name: "City Hall", code: "EW13"},
+        {name: "Raffles Place", code: "EW14"},
+        {name: "Tanjong Pagar", code: "EW15"},
+        {name: "Outram Park", code: "EW16"},
+        {name: "Tiong Bahru", code: "EW17"},
+        {name: "Redhill", code: "EW18"},
+        {name: "Queenstown", code: "EW19"},
+        {name: "Commonwealth", code: "EW20"},
+        {name: "Buona Vista", code: "EW21"},
+        {name: "Dover", code: "EW22"},
+        {name: "Clementi", code: "EW23"},
+        {name: "Jurong East", code: "EW24"},
+        {name: "Chinese Garden", code: "EW25"},
+        {name: "Lakeside", code: "EW26"},
+        {name: "Boon Lay", code: "EW27"},
+        {name: "Pioneer", code: "EW28"},
+        {name: "Joo Koon", code: "EW29"},
+        {name: "Gul Circle", code: "EW30"},
+        {name: "Tuas Crescent", code: "EW31"},
+        {name: "Tuas West Road", code: "EW32"},
+        {name: "Tuas Link", code: "EW33"}
+    ]
+};
+
+  module.exports = EWLine;

@@ -1,0 +1,42 @@
+const DTLine = {
+    name: "Downtown Line",
+    code: "DT",
+    stations: [
+        {name: "Bukit Panjang", code: "DT1"},
+        {name: "Cashew", code: "DT2"},
+        {name: "Hillview", code: "DT3"},
+        {name: "Hume", code: "DT5"},
+        {name: "Beauty World", code: "DT5"},
+        {name: "King Albert Park", code: "DT6"},
+        {name: "Sixth Avenue", code: "DT7"},
+        {name: "Tan Kah Kee", code: "DT8"},
+        {name: "Botanic Gardens", code: "DT9"},
+        {name: "Stevens", code: "DT10"},
+        {name: "Newton", code: "DT11"},
+        {name: "Little India", code: "DT12"},
+        {name: "Rochor", code: "DT13"},
+        {name: "Bugis", code: "DT14"},
+        {name: "Promenade", code: "DT15"},
+        {name: "Bayfront", code: "DT16"},
+        {name: "Downtown", code: "DT17"},
+        {name: "Telok Ayer", code: "DT18"},
+        {name: "Chinatown", code: "DT19"},
+        {name: "Fort Canning", code: "DT20"},
+        {name: "Bencoolen", code: "DT21"},
+        {name: "Jalan Besar", code: "DT22"},
+        {name: "Bendemeer", code: "DT23"},
+        {name: "Geylang Bahru", code: "DT24"},
+        {name: "Mattar", code: "DT25"},
+        {name: "MacPherson", code: "DT26"},
+        {name: "Ubi", code: "DT27"},
+        {name: "Kaki Bukit", code: "DT28"},
+        {name: "Bedok North", code: "DT29"},
+        {name: "Bedok Reservoir", code: "DT30"},
+        {name: "Tampines West", code: "DT31"},
+        {name: "Tampines", code: "DT32"},
+        {name: "Tampines East", code: "DT33"},
+        {name: "Upper Changi", code: "DT34"}
+    ]
+};
+
+module.exports = DTLine;
