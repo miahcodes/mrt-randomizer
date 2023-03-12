@@ -1,4 +1,4 @@
-import mrtStations from './line-arrays.js';
+const mrtStations = require('./mrtarrays');
 // Define a function to return a random station from the mrt stations parent array
 // that accepts a line name or code as an optional parameter
 function getRandomStation(lineNameOrCode) {
@@ -27,17 +27,16 @@ function getRandomStation(lineNameOrCode) {
 
     // Return the random station object
     return randomStation;
-}
+  }
 
-document.getElementById('randomize-button').addEventListener('click', () => {
-    const linename = document.getElementById('line-name').value;
-    const linecode = document.getElementById('line-code').value;
-    document.getElementById('output').classList.remove('invisible')
-    if (linename || linecode) {
-        const randomStation = getRandomStation(linename || linecode);
-        document.getElementById('random-station').innerHTML = `${randomStation.name} (${randomStation.code})`;
-        return;
-    }
-    const randomStation = getRandomStation();
-    document.getElementById('random-station').innerHTML = `${randomStation.name} (${randomStation.code})`;
-});
+// Get a random station object from any MRT line
+const randomStation = getRandomStation();
+console.log(randomStation);
+
+// Get a random station object from the East-West line
+const randomEastWestStation = getRandomStation("East West Line");
+console.log(randomEastWestStation);
+
+// Get a random station object from the NS line
+const randomNSStation = getRandomStation("NS");
+console.log(randomNSStation);

@@ -38,4 +38,4 @@ const EWLine = {
     ]
 };
 
-  module.exports = EWLine;
+module.exports = EWLine;

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SG MRT Randomizer</title>
+    <meta name="description" content="A simple randomizer for Singapore MRT stations to help you decide where to go on your next spontaneous date.">
+    <script type="module" src="./line-arrays.js"></script>
+    <script type="module" src="./index.js"></script>
+</head>
+<body>
+    <div class="container mx-auto">
+        <!-- write code that has an input form with a dropdown select field for line name a dropdown select for line code and a submit button -->
+        <div class="flex w-3/4 max-w-sm mx-auto justify-center items-center flex-wrap wrap h-screen flex-col">
+            <div class="text-center mb-6">
+                <h1 class="text-3xl font-bold mb-2">Singapore MRT Station Randomizer</h1>
+                <p>A simple randomizer for Singapore MRT stations to help you decide where to go on your next spontaneous date 👫😉❤️.</p>
+            </div>
+            <div id="randomizer-inputs" class="w-full text-center mb-6">
+                <div class="form-control mb-4">
+                    <label for="line-name" class="font-bold">Line Name: </label>
+                    <select name="line-name" id="line-name" class="border-solid border-2 border-indigo-600 rounded-md">
+                        <option value="">Select Line Name</option>
+                        <option value="North South Line">North South Line</option>
+                        <option value="East West Line">East West Line</option>
+                        <option value="North East Line">North East Line</option>
+                        <option value="Circle Line">Circle Line</option>
+                        <option value="Downtown Line">Downtown Line</option>
+                        <option value="Thomson Line">Thomson Line</option>
+                        <option value="Bukit Panjang LRT">Bukit Panjang LRT</option>
+                        <option value="Sengkang LRT">Sengkang LRT</option>
+                        <option value="Punggol LRT">Punggol LRT</option>
+                    </select>
+                </div>
+                <div class="form-control mb-4">
+                    <label for="line-code" class="font-bold">Line Code: </label>
+                    <select name="line-code" id="line-code" class="border-solid border-2 border-indigo-600 rounded-md">
+                        <option value="">Select Line Code</option>
+                        <option value="NS">NS</option>
+                        <option value="EW">EW</option>
+                        <option value="NE">NE</option>
+                        <option value="CC">CC</option>
+                        <option value="DT">DT</option>
+                        <option value="TE">TE</option>
+                        <option value="BP">BP</option>
+                        <option value="SE">SE</option>
+                        <option value="PL">PL</option>
+                    </select>
+                </div>
+                <button id="randomize-button" class="px-4 py-2 font-semibold text-sm bg-cyan-500 text-white rounded-full shadow-sm">Get Random Station</button>
+            </div>
+            <div id="output" class="text-center invisible pb-24">
+                <p>Your random station is:</p>
+                <h2 id="random-station" class="text-2xl font-bold">---
+                </h2>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
