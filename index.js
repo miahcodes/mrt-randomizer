@@ -31,10 +31,10 @@ function getRandomStation(lineNameOrCode) {
 
 document.getElementById('randomize-button').addEventListener('click', () => {
     const linename = document.getElementById('line-name').value;
-    const linecode = document.getElementById('line-code').value;
+    // const linecode = document.getElementById('line-code').value;
     document.getElementById('output').classList.remove('invisible')
-    if (linename || linecode) {
-        const randomStation = getRandomStation(linename || linecode);
+    if (linename) {
+        const randomStation = getRandomStation(linename);
         document.getElementById('random-station').innerHTML = `${randomStation.name} (${randomStation.code})`;
         return;
     }
