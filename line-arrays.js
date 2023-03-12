@@ -268,28 +268,28 @@ const TELine = {
         {name: "Shenton Way", code: "TE19"},
         {name: "Marina Bay", code: "TE20"},
         {name: "Marina South", code: "TE21"},
-        {name: "Gardens by the Bay", code: "TE22"},
-        {name: "Tanjong Rhu", code: "TE23"},
-        {name: "Katong Park", code: "TE24"},
-        {name: "Tanjong Katong", code: "TE25"},
-        {name: "Marine Parade", code: "TE26"},
-        {name: "Siglap", code: "TE27"},
-        {name: "Bayshore", code: "TE28"},
-        {name: "Bedok South", code: "TE29"},
-        {name: "Sunrise Way", code: "TE30"},
-        {name: "Upper East Coast", code: "TE31"},
-        {name: "East Coast", code: "TE32"},
-        {name: "Marine Terrace", code: "TE33"},
-        {name: "Siglap", code: "TE34"},
-        {name: "Bayshore", code: "TE35"},
-        {name: "Bedok South", code: "TE36"},
-        {name: "Sungei Bedok", code: "TE37"}
+        {name: "Gardens by the Bay", code: "TE22"}//,
+        // {name: "Tanjong Rhu", code: "TE23"},
+        // {name: "Katong Park", code: "TE24"},
+        // {name: "Tanjong Katong", code: "TE25"},
+        // {name: "Marine Parade", code: "TE26"},
+        // {name: "Siglap", code: "TE27"},
+        // {name: "Bayshore", code: "TE28"},
+        // {name: "Bedok South", code: "TE29"},
+        // {name: "Sunrise Way", code: "TE30"},
+        // {name: "Upper East Coast", code: "TE31"},
+        // {name: "East Coast", code: "TE32"},
+        // {name: "Marine Terrace", code: "TE33"},
+        // {name: "Siglap", code: "TE34"},
+        // {name: "Bayshore", code: "TE35"},
+        // {name: "Bedok South", code: "TE36"},
+        // {name: "Sungei Bedok", code: "TE37"}
     ]
 };
 
 // define an array of all the imported files
 const mrtStations = [
-    EWLine, NSLine, NELine, CCLine, DTLine, TELine, JRLine, CILine
+    EWLine, NSLine, NELine, CCLine, DTLine, TELine //, JRLine, CILine
 ];
 
 // export the array
